@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practo Navbar</title>
+    <link rel="stylesheet" href="web_des.css">
+<script>
+        function scrollContentLeft() {
+    const scrollContainer = document.querySelector('.scroll-content');
+    scrollContainer.scrollBy({
+        left: -300, // Scroll to the left by 300px
+        behavior: 'smooth'
+    });
+}
+
+function scrollContentRight() {
+    const scrollContainer = document.querySelector('.scroll-content');
+    scrollContainer.scrollBy({
+        left: 300, // Scroll to the right by 300px
+        behavior: 'smooth'
+    });
+}
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <span class="menu-icon">&#9776;</span>
+            <img src="https://www.practo.com/nav/9.5.21/consumer/images/practo.svg" alt="Practo Logo" class="logo">
+        </div>
+        <div class="navbar-right">
+            <a href="#" class="sign-in-button">Sign In</a>
+        </div>
+    </nav>
+    
+    <section class="form">
+        <form action="/submit_form" method="post" class="form1">
+            <label for="Location"> <img src="location.png" alt="image" class="location_logo"></label>
+            <input type="text" id="location" name="location" value="Kochi" class="box1">
+        </form>
+
+        <form action="/submitform" method="post" class="form2">
+            <label for="Search"> <img src="search-interface-symbol.png" alt="logo" class="search_logo"></label>
+            <input type="text" id="seacrch" name="search" placeholder="Search doctors,clinics,hospitals..." class="box2">
+
+        </form>
+    </section>
+
+    <section class="container">
+    
+      <div class="block">
+    <a href="https://www.practo.com/consult?utm_source=corecard&utm_medium=referral&utm_campaign=practohomepage">
+            <img src="video_consult.png" alt="instant consult">
+            <div class="text">
+                <h3>Instant Video Consultation</h3>
+                <p>Connect within 60 secs</p>
+            </div>
+      </div>
+    </a>
+
+      <div class="block">
+    <a href="https://www.practo.com/doctors?utm_source=corecard&utm_medium=referral&utm_campaign=practohomepage">
+            <img src="doctor-1.png" alt="doc 1">
+            <div class="text">
+                <h3>Find Doctors Near You</h3>
+                <p>Confirmed appointments</p>
+            </div>
+      </div>
+    </a>
+
+      <div class="block">
+    <a href="https://www.practo.com/care?utm_source=corecard&utm_medium=referral&utm_campaign=practohomepage">
+            <img src="doctor-2.jpg" alt="doc 2">
+            <div class="text">
+                <h3>Surgeries</h3>
+                <p>Safe and trusted surgery centers</p>
+            </div>
+      </div>
+    </a>
+    </section>
+    
+    <section class="head-2">
+    <h2>Consult top doctors online for any health concern</h2>
+    <p>Private online consultations with verified doctors in all specialists</p>
+    </section>
+   
+    <section class="round-container">
+        <div class="block-2">
+        <a href="https://www.practo.com/consult/direct/new_consultation?id=16&utm_source=consumer-home&utm_medium=web&utm_campaign=top_symptoms">
+            <img src="woman.png" alt="none" class="utrs">
+            <div class="text-2">
+                <h4>Period doubts or <br> Pregnancy</h4>
+                <p class="consult-now">CONSULT NOW</p>
+            </div>
+        </a>
+        </div>
+
+
+        <div class="block-2">
+            <a href="https://www.practo.com/consult/direct/new_consultation?id=16&utm_source=consumer-home&utm_medium=web&utm_campaign=top_symptoms">
+                <img src="acne.png" alt="none" class="utrs">
+                <div class="text-2">
+                    <h4>Acne, pimple or <br> skin issue</h4>
+                    <p class="consult-now">CONSULT NOW</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="block-2">
+            <a href="https://www.practo.com/consult/direct/new_consultation?id=16&utm_source=consumer-home&utm_medium=web&utm_campaign=top_symptoms">
+                <img src="lovers.png" alt="none" class="utrs">
+                <div class="text-2">
+                    <h4>Performance<br>issues in bed</h4>
+                    <p class="consult-now">CONSULT NOW</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="block-2">
+            <a href="https://www.practo.com/consult/direct/new_consultation?id=16&utm_source=consumer-home&utm_medium=web&utm_campaign=top_symptoms">
+                <img src="cough.png" alt="none" class="utrs">
+                <div class="text-2">
+                    <h4>Period doubts or <br> Pregnancy</h4>
+                    <p class="consult-now">CONSULT NOW</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="block-2">
+            <a href="https://www.practo.com/consult/direct/new_consultation?id=16&utm_source=consumer-home&utm_medium=web&utm_campaign=top_symptoms">
+                <img src="homeless.png" alt="none" class="utrs">
+                <div class="text-2">
+                    <h4>Period doubts or <br> Pregnancy</h4>
+                    <p class="consult-now">CONSULT NOW</p>
+                </div>
+            </a>
+    </section>
+
+
+
+
+    
+<section class="card-container">
+        <h2>Book an appointment for an in-clinic consultation</h2>
+        <p>Find experienced doctors across all specialties</p>
+        
+        <div class="scroll-container">
+            <button class="scroll-button left-button" onclick="scrollContentLeft()">&lt;</button>
+            <div class="scroll-content">
+                <div class="card">
+                    <img src="gynaco.jpg" alt="Gynecologist/Obstetrician" class="card-img">
+                    <h3>Gynecologist/Obstetrician</h3>
+                    <p>Explore for women’s health, pregnancy and infertility treatments</p>
+                </div>
+                <div class="card">
+                    <img src="dietitian.jpg" alt="Dietitian/Nutrition">
+                    <h3>Dietitian/Nutrition</h3>
+                    <p>Get guidance on eating right, weight management and sports nutrition</p>
+                </div>
+                <div class="card">
+                    <img src="physio.jpg" alt="Physiotherapist">
+                    <h3>Physiotherapist</h3>
+                    <p>Pulled a muscle? Get it treated by a trained physiotherapist</p>
+                </div>
+                <div class="card">
+                    <img src="surgeon.jpg" alt="General Surgeon">
+                    <h3>General Surgeon</h3>
+                    <p>Need to get operated? Find the right surgeon</p>
+                </div>
+            
+                <div class="card">
+                    <img src="General Physician.jpg" alt="General Surgeon">
+                    <h3>General Physician</h3>
+                    <p>Find the right family doctor in your neighbourhood</p>
+                </div>        
+
+                <div class="card">
+                    <img src="Pediatrician.jpg" alt="General Surgeon">
+                    <h3>Pediatrician</h3>
+                    <p>Child specialists and Doctors for Infant</p>
+                </div>
+
+                <div class="card">
+                    <img src="dentist.jpg" alt="Dentist">
+                    <h3>General Surgeon</h3>
+                    <p>Teethinf troubles? Schedule a dental checkup</p>
+                </div>
+
+            </div>
+            <button class="scroll-button right-button" onclick="scrollContentRight()">&gt;</button>
+        </div>
+    </section>
+
+    <section class="article-container">
+        <div class="heading">
+            <h1>Read top articles from health experts</h1>
+            <p>Health articles that keep you informed about good health practices and achieve your goals.</p>
+            <div class="article-button">
+                <a href="#" class="see-article">See All Article </a>
+            </div>           
+        </div>
+
+        <div class="articles">
+            <img src="covid_vaccine.png" alt="General Surgeon">
+            <h5>CORONAVIRUS</h5>
+            <h3>12 Coronavirus Myths and Facts That You Should Be Aware Of</h3>
+            <p>Dr. Diana Borgio</p>
+        </div>
+
+        <div class="articles">
+            <img src="balanced-diet-jpeg.jpeg" alt="General Surgeon">
+            <h5>VITAMINS AND SUPPLIMENTS</h5>
+            <h3>Eating Right to Build Immunity Against Cold and Viral Infections</h3>
+            <p>Dr. Diana Borgio</p>
+        </div>
+        
+    </section>
+
+
+
+    <div class="testimonial-section">
+        <h2>What our users have to say</h2>
+        
+        <div class="testimonial-slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+    
+            <div class="slides">
+                <div class="testimonial-slide" id="testimonial1">
+                    <p>Very good app. Well thought out about booking/rescheduling/canceling an appointment. Also, Doctor's feedback mechanism is good and describes all the basics in a good way.</p>
+                    <div class="testimonial-author">
+                    
+                        <span>Avinash Kumar</span>
+                    </div>
+                </div>
+    
+                <div class="testimonial-slide" id="testimonial2">
+                    <p>The app has a very user-friendly interface and makes it easy to book appointments with doctors. Highly recommend it to anyone looking for a reliable healthcare app.</p>
+                    <div class="testimonial-author">
+                    
+                        <span>Ritika Sharma</span>
+                    </div>
+                </div>
+    
+                <div class="testimonial-slide" id="testimonial3">
+                    <p>Efficient, easy to use, and great for managing health appointments. The notification system is very helpful and timely. A must-have app for busy individuals.</p>
+                    <div class="testimonial-author">
+                        
+                        <span>Rahul Verma</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="navigation">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </div>
+    </div>
+    
+    <section class="final">
+        <img src="footer-img.png" alt="no image">
+        <div class="download">
+             <h1>Download the Practo app</h1>
+             <p>Access video consultation with India’s top doctors on the Practo app. Connect with doctors online, available 24/7, from the comfort of your home.</p>
+             <h3>Get the link to download the app</h3>
+             <div class="enter-phone"> 
+                <div class="download-form">
+                    <div class="country-code">
+                        <span>+91</span>
+                    </div>
+                    <input type="text" placeholder="Enter phone number" class="phone-input">
+                    <button class="send-sms-button">Send SMS</button>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+
+    <footer>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>For patients</h3>
+                    <ul>
+                        <li><a href="#">Search for doctors</a></li>
+                        <li><a href="#">Search for clinics</a></li>
+                        <li><a href="#">Search for hospitals</a></li>
+                        <li><a href="#">Practo Plus</a></li>
+                        <li><a href="#">Covid Hospital listing</a></li>
+                        <li><a href="#">Practo Care Clinics</a></li>
+                        <li><a href="#">Read health articles</a></li>
+                        <li><a href="#">Read about medicines</a></li>
+                        <li><a href="#">Practo drive</a></li>
+                        <li><a href="#">Health app</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>For doctors</h3>
+                    <ul>
+                        <li><a href="#">Practo Profile</a></li>
+                    </ul>
+                    <h3>For clinics</h3>
+                    <ul>
+                        <li><a href="#">Ray by Practo</a></li>
+                        <li><a href="#">Practo Reach</a></li>
+                        <li><a href="#">Ray Tab</a></li>
+                        <li><a href="#">Practo Pro</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>For hospitals</h3>
+                    <ul>
+                        <li><a href="#">Insta by Practo</a></li>
+                        <li><a href="#">Qikwell by Practo</a></li>
+                        <li><a href="#">Practo Profile</a></li>
+                        <li><a href="#">Practo Reach</a></li>
+                        <li><a href="#">Practo Drive</a></li>
+                    </ul>
+                    <h3>For Corporates</h3>
+                    <ul>
+                        <li><a href="#">Wellness Plans</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">PCS T&C</a></li>
+                        <li><a href="#">Healthcare Directory</a></li>
+                        <li><a href="#">Practo Health Wiki</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Social</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="https://www.practostatic.com/web-assets/images/white_practo_logo.svg" alt="Practo Logo">
+                </div>
+                <p>Copyright © 2017, Practo. All rights reserved.</p>
+            </div>
+        </footer>
+        
+    </footer>
+
+
+
+</body>
+</html>
